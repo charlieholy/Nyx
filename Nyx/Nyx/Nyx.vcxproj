@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84DAB21F-FE2C-4835-A7E9-10E9ADB12B1D}</ProjectGuid>
+    <RootNamespace>Nyx</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\depends\nxhttpclient\ch_httpclient.c" />
+    <ClCompile Include="..\..\depends\nxjsoncpp\ch_json.cpp" />
+    <ClCompile Include="..\..\depends\nxkline\ch_kline.cpp" />
+    <ClCompile Include="..\..\depends\nxleveldb\ch_leveldb.cpp" />
+    <ClCompile Include="..\..\depends\nxlog\ch_log.cpp" />
+    <ClCompile Include="..\..\depends\nxmergedepth\ch_depthsnap.cpp" />
+    <ClCompile Include="..\..\depends\nxpipe\ch_pipe.cpp" />
+    <ClCompile Include="..\..\depends\nxposeidon\ch_poseidon.cpp" />
+    <ClCompile Include="..\..\depends\nxrabbitmq\ch_rabbitmqclient.cpp" />
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_proto.cpp" />
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_rpcserver.cpp" />
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_tcpserverRpc.cpp" />
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_wsserverRpc.cpp" />
+    <ClCompile Include="..\..\depends\nxtest\ch_test.cpp" />
+    <ClCompile Include="..\..\depends\nxthread\ch_queue.cpp" />
+    <ClCompile Include="..\..\depends\nxtools\ch_tools.cpp" />
+    <ClCompile Include="..\..\depends\nxudpclient\ch_udpclient.cpp" />
+    <ClCompile Include="..\..\test\json\test_json.cpp" />
+    <ClCompile Include="..\..\test\kline\kline_test.cpp" />
+    <ClCompile Include="..\..\test\kline\kline_test2.cpp" />
+    <ClCompile Include="..\..\test\kline\kline_test3.cpp" />
+    <ClCompile Include="..\..\test\kline\kline_test4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\depends\nxhttpclient\ch_httpclient.h" />
+    <ClInclude Include="..\..\depends\nxjsoncpp\ch_json.h" />
+    <ClInclude Include="..\..\depends\nxkline\ch_kline.h" />
+    <ClInclude Include="..\..\depends\nxleveldb\ch_leveldb.h" />
+    <ClInclude Include="..\..\depends\nxlog\ch_log.h" />
+    <ClInclude Include="..\..\depends\nxmergedepth\ch_depthsnap.h" />
+    <ClInclude Include="..\..\depends\nxpipe\ch_pipe.h" />
+    <ClInclude Include="..\..\depends\nxposeidon\ch_poseidon.h" />
+    <ClInclude Include="..\..\depends\nxrabbitmq\ch_rabbitmqclient.h" />
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_proto.h" />
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_rpcserver.h" />
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_tcpserverRpc.h" />
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_wsserverRpc.h" />
+    <ClInclude Include="..\..\depends\nxtest\ch_test.h" />
+    <ClInclude Include="..\..\depends\nxthread\ch_queue.h" />
+    <ClInclude Include="..\..\depends\nxtools\ch_tools.h" />
+    <ClInclude Include="..\..\depends\nxudpclient\ch_udpclient.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\makefile" />
+    <None Include="..\..\test\kline\Makefile" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

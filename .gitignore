@@ -1,0 +1,13 @@
+#
+*.[od]
+*.exe
+#
+leveldb
+/sqlite
+/lib
+property
+cor*
+log
+*.db
+*.opendb
+*.out

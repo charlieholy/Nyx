@@ -1,0 +1,29 @@
+{
+    "rabbitmqclient":{
+        "isMoke":false,
+        "syntime":120,
+        "url2":"amqp://guest:guest@192.168.0.229:5672",
+        "url":"amqp://eoe:eoemq2018@121.43.172.167:5672",
+        "machineNum":2,
+        "product":{
+            "exchange":"eoe.nyx.publish",
+            "routing":"queue.nyx.publish",
+            "queue":"queue.nyx.publish"
+        },
+        "custom":{
+            "exchange":"eoe.nyx.publish",
+            "routing":"queue.nyx.publish",
+            "queue":"queue.nyx.publish.1"
+        }
+       
+    },
+    "wsserverRpc": {
+        "bind": "tcp@0.0.0.0:12389",
+        "max_pkg_size": 102400,
+        "protocol": "chat"
+    },
+    "tcpserverRpc": {
+        "bind": "tcp@0.0.0.0:12388",
+        "max_pkg_size": 102400
+    }
+}

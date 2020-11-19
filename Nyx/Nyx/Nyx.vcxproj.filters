@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\depends">
+      <UniqueIdentifier>{c35d9623-c1c6-4f5a-8f45-b537e1ad2744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxkline">
+      <UniqueIdentifier>{8f396115-d208-4dcd-87b4-907cf4b30b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxlog">
+      <UniqueIdentifier>{a12f6789-cee2-440c-9a6c-93b45658a2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxudpclient">
+      <UniqueIdentifier>{a454dc7c-4386-41ae-8a25-b5843057a8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxjson">
+      <UniqueIdentifier>{86d1c063-a6b1-4ab2-be8a-f7efa85dde4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxposidon">
+      <UniqueIdentifier>{37570d9d-06ab-4d7c-ad2b-d4024402138a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxrpcserver">
+      <UniqueIdentifier>{bcce57a7-ea94-4fcc-a238-eb503c341587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxleveldb">
+      <UniqueIdentifier>{e479f3ef-143d-41e6-b009-81a2004c6028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{5e8137ae-5383-400b-a371-da2ac3f76bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test\kline">
+      <UniqueIdentifier>{9ff0e955-e829-4a26-957f-5166500cd5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\test\json">
+      <UniqueIdentifier>{ba7e69df-75aa-483f-ba7b-1ced37bf177b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxrabbitmq">
+      <UniqueIdentifier>{30f593be-7abc-49f4-ab2a-694e5bd2b462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\nxtools">
+      <UniqueIdentifier>{1958f3e8-f085-4443-b44e-24c0e891084d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxhttpclient">
+      <UniqueIdentifier>{c26b7e5d-d2e2-4b2c-88af-4cacaa4c9774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxpipe">
+      <UniqueIdentifier>{ee2f52c3-fb31-4bee-97cd-7cd276497b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxtest">
+      <UniqueIdentifier>{c81ff8b0-02d2-4c6c-8f92-121944b690ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxmergedepth">
+      <UniqueIdentifier>{a37f3a0b-9945-4bcb-a5c3-19a7099a3e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\depends\nxthread">
+      <UniqueIdentifier>{675860d5-b3da-41c5-8b48-07ed340614ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\depends\nxkline\ch_kline.cpp">
+      <Filter>源文件\depends\nxkline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxlog\ch_log.cpp">
+      <Filter>源文件\depends\nxlog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxudpclient\ch_udpclient.cpp">
+      <Filter>源文件\depends\nxudpclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxjsoncpp\ch_json.cpp">
+      <Filter>源文件\depends\nxjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxposeidon\ch_poseidon.cpp">
+      <Filter>源文件\depends\nxposidon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_proto.cpp">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_rpcserver.cpp">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_tcpserverRpc.cpp">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxrpcserver\ch_wsserverRpc.cpp">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxleveldb\ch_leveldb.cpp">
+      <Filter>源文件\depends\nxleveldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\kline\kline_test.cpp">
+      <Filter>源文件\test\kline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\json\test_json.cpp">
+      <Filter>源文件\test\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxrabbitmq\ch_rabbitmqclient.cpp">
+      <Filter>源文件\depends\nxrabbitmq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\kline\kline_test2.cpp">
+      <Filter>源文件\test\kline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxtools\ch_tools.cpp">
+      <Filter>源文件\nxtools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxhttpclient\ch_httpclient.c">
+      <Filter>源文件\depends\nxhttpclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxpipe\ch_pipe.cpp">
+      <Filter>源文件\depends\nxpipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxtest\ch_test.cpp">
+      <Filter>源文件\depends\nxtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxmergedepth\ch_depthsnap.cpp">
+      <Filter>源文件\depends\nxmergedepth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\depends\nxthread\ch_queue.cpp">
+      <Filter>源文件\depends\nxthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\kline\kline_test3.cpp">
+      <Filter>源文件\test\kline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\kline\kline_test4.cpp">
+      <Filter>源文件\test\kline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\depends\nxkline\ch_kline.h">
+      <Filter>源文件\depends\nxkline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxlog\ch_log.h">
+      <Filter>源文件\depends\nxlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxudpclient\ch_udpclient.h">
+      <Filter>源文件\depends\nxudpclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxjsoncpp\ch_json.h">
+      <Filter>源文件\depends\nxjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxposeidon\ch_poseidon.h">
+      <Filter>源文件\depends\nxposidon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_proto.h">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_rpcserver.h">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_tcpserverRpc.h">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxrpcserver\ch_wsserverRpc.h">
+      <Filter>源文件\depends\nxrpcserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxleveldb\ch_leveldb.h">
+      <Filter>源文件\depends\nxleveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxrabbitmq\ch_rabbitmqclient.h">
+      <Filter>源文件\depends\nxrabbitmq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxtools\ch_tools.h">
+      <Filter>源文件\nxtools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxhttpclient\ch_httpclient.h">
+      <Filter>源文件\depends\nxhttpclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxpipe\ch_pipe.h">
+      <Filter>源文件\depends\nxpipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxtest\ch_test.h">
+      <Filter>源文件\depends\nxtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxmergedepth\ch_depthsnap.h">
+      <Filter>源文件\depends\nxmergedepth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\depends\nxthread\ch_queue.h">
+      <Filter>源文件\depends\nxthread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\makefile">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\test\kline\Makefile">
+      <Filter>源文件\test</Filter>
+    </None>
+  </ItemGroup>
+</Project>
